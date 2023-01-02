@@ -1,0 +1,80 @@
+#viewbox{
+    background-color: rgb(32, 32, 32);
+    padding: 2em;
+    position: relative;
+    margin: 5px;
+    width: 95%;
+  }
+   #viewbox .left{
+    width: 60%;
+    float: left;
+  }
+   #viewbox .left img{
+    height: 22rem;
+    width: 90%;
+  }
+   #viewbox .right{
+    width: 40%;
+    float: left;
+    line-height: 2px;
+  }
+  #viewbox .right a{
+    text-decoration: none;
+  }
+   #viewbox .right #heading{
+    color: bisque;
+    font-size: 30px;
+    font-weight: bolder;
+    
+  }
+   #viewbox .right #sub{
+    color: bisque;
+    font-size: 15px;
+  }
+   #viewbox .right .related_images{
+    float: left;
+    padding: 20px 0px;
+  }
+   #viewbox .right .related_images img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+  }
+   #viewbox .right .related_images img:hover{
+    width: 73px;
+    height: 73px;
+    padding: 8px;
+  }
+   #viewbox .btn_close{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: beige;
+    position: absolute;
+    top: 0;
+    left: 97%;
+  }
+  .clear{
+    clear: both;
+  }
+  @media screen and (max-width: 500px) {
+     #viewbox .left {
+      width: 100%;
+      float: none;
+      margin: 0;
+    }
+     #viewbox .right{
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+      #viewbox .left img{
+      width: 100%;
+      height: auto;
+    }
+     #viewbox { 
+      padding: 0;                                     
+    }
+    
+  }
